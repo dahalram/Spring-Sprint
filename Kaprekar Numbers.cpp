@@ -12,7 +12,6 @@ int main(){
 		int counter = 0;
 		int divider = 1;
 		long sq = p*p;
-		//cout << sq << endl;
 
 		long sp = p;
 		while(sp >= 10){
@@ -31,12 +30,8 @@ int main(){
 			checker++;
 			cout << p << " ";
 		}
-
-
-		//cout << l << endl;
-		//cout << r;
-
 	}
+	
 	if (checker == 0){
 			cout << "INVALID RANGE";
 	}
