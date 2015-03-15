@@ -25,7 +25,6 @@ void primeFactors(int n){
 	if (n1 < 10){
 		sum1 += n1;
 	}
-	//cout << sum1 << endl;
 
 	//Prime factors	
 	while (n % 2 == 0){
@@ -71,7 +70,6 @@ void primeFactors(int n){
 
     }
 
-    //cout << sum2;
     if (sum1 ==sum2){
     	cout << "1";
     }
