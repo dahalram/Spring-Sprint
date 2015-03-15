@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
 	string myMap[500];
-	//map<int, string> myMap;
 	myMap[1] = "one";myMap[13] = "thirteen";
 	myMap[2] = "two";myMap[14] = "fourteen";
 	myMap[3] = "three";myMap[15] = "quarter";
